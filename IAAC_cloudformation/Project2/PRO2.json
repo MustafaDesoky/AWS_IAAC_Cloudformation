@@ -1,0 +1,36 @@
+[
+    {
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "MyProject"
+	},
+    {
+        "ParameterKey":"VpcCidrBlock",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey":"DestinationCidr",
+        "ParameterValue":"0.0.0.0/0"
+    },
+    {
+        "ParameterKey":"myIP",
+        "ParameterValue":"196.132.131.231/32"
+    },
+    {
+        "ParameterKey":"InstancesImg",
+        "ParameterValue":"ami-0574da719dca65348"
+    },
+    {
+        "ParameterKey":"BasImg",
+        "ParameterValue":"ami-0b5eea76982371e91"
+    },
+    {
+        "ParameterKey":"PubSubCidr1",
+        "ParameterValue":"10.0.1.0/24"
+    },
+    {
+        "ParameterKey":"PriSubCidr1",
+        "ParameterValue":"10.0.0.0/24"
+    }
+
+
+]
